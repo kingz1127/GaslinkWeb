@@ -3,9 +3,6 @@ node_modules/
 .pnp
 .pnp.js
 
-# Testing
-coverage/
-
 # Next.js build files
 .next/
 out/
@@ -35,3 +32,6 @@ yarn-error.log*
 # Cache files
 .cache/
 .turbo/
+
+# OS files
+Thumbs.db

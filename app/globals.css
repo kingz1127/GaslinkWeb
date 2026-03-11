@@ -1,4 +1,4 @@
-
+/* app/globals.css */
 @import "tailwindcss";
 
 @theme {
@@ -14,8 +14,14 @@
   --color-input: #E8EDF5;
   --color-ring: #0A2472;
   --radius: 0.5rem;
+  
+  /* System fonts */
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
+html {
+  font-family: var(--font-sans);
+}
 
 @keyframes fadeIn {
   from {
